@@ -1,18 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-    crossorigin="anonymous" />
-    <link rel="stylesheet" href="./styles.css" />
-   
-    <title>Ian's Baptism</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel='stylesheet' type="text/css" href="./styles.css" />
+
+  <title>Ian's Baptism</title>
+</head>
+
+<body>
+  <!-- Side navigation -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <!-- <p id="details"> -->
+    <h1 id='menuDetails'>DETAILS:</h1>
+    <h1>Baptism:
+      Saturday Sep 26th @ 4:00 pm
+      <br>
+      Broadcast will begin @ 3:45 pm</h1>
+    <!-- </p> -->
+    <a href="https://meet.google.com/zuk-uqfy-ywo" target='blank'>Click Here to Join The Broadcast</a>
+
+    <!-- <p id="details"> -->
+    <h1>Immediatly following the baptism, we'd love for you to join us at Morning cloak Park in Riverton.
+      <br>
+      <a href="https://goo.gl/maps/anxV3bPHW9EJoABo8" target='blank'>Morning Cloak Park
+        13627 Morning Cloak Way, Riverton, UT 84096</a>
+    </h1>
+    <!-- </p> -->
+    <a class="navbar-brand" href="#"><img id='qrCode' src='./images/Ians_Baptism_QR.png' alt='QR Code' width="140px"
+        height="140px"></a>
+  </div>
+  <a id="home"></a>
+  <button class="openbtn" onclick="openNav()">☰ DETAILS</button>
+
+  <!-- Page content -->
+  <div class="main">
+    <div class="container">
+      <!-- <div class="jumbotron" id='jumbo'> -->
+      <div class="row">
+        <div class='col-lg-12'>
+          <img src='./images/Ian Baptism Background.png' alt='Invitation' id='mainImage'>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar" id="bottomNav">
+    <a href="https://meet.google.com/zuk-uqfy-ywo" target='blank' id="FootText">Meeting Link</a>
+
+    <a href="https://goo.gl/maps/anxV3bPHW9EJoABo8" target='blank'>Directions to the Park</a>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+
+  <!-- <div class='row'id='jumbo'>
+              
+              <div class='col-lg-1' id='emptyLeft'>
+                <img src="images/Stripe vector 4.svg" id='goldStripes' alt='gold_stripes'>
+              </div>
+
+              <div class='col-lg-2'>
+                <img src='./images/IMG_5898.png' alt='Ian 1' id='ianPic'>
+              </div>
+              <div class='col-lg-2'>
+                <img src='./images/IMG_5823.png' alt='Ian 1' id='ianPic'>
+              </div>
+              <div class='col-lg-2'>
+                <img src='./images/Pic1.png' alt='Ian 1' id='ianPic'>
+              </div>
+              <div class='col-lg-2'>
+                <img src='./images/Pic1.png' alt='Ian 1' id='ianPic'>
+              </div>
+
+              <div class='col-lg-1' id='emptyRight'>
+                <img src="images/Stripe vector 3.svg" id='greenStripes' alt='green_stripes'>
+              </div>
+            </div> -->
+  <!-- </div> -->
+
+  <!-- </div> -->
+  <!-- </div> -->
+
+</body>
+
 </html>
