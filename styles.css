@@ -15,7 +15,7 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #b7aa4d;
   display: block;
   transition: 0.3s;
@@ -38,6 +38,28 @@
     margin-bottom: 30px;
     text-align: center;
   }
+
+  #mainImage {
+    max-width: 50%;
+    margin-bottom: 15px;
+}
+
+#addEvent {
+    color: #0a6537;
+}
+
+.jumbo {
+  margin-left: 250px;
+}  
+
+#details {
+  color: #b7aa4d;
+}
+
+#ianPic {
+  width: 225px;
+  height: 337.5px;
+}
 
 
 @media screen and (max-height: 450px) {
@@ -104,7 +126,7 @@
     width: 19%;
     color:#0a6537;
     text-align: center;
-    /* padding: 14px 16px; */
+    padding: 14px 16px;
     text-decoration: underline;
     font-size: 17px;
   }
@@ -120,19 +142,4 @@
     margin-left: 5px;
   }
 
-  #mainImage {
-      max-width: 56%;
-  }
-
-  .jumbo {
-    margin-left: 250px;
-  }  
-  
-  #details {
-    color: #b7aa4d;
-  }
-  
-  #ianPic {
-    width: 225px;
-    height: 337.5px;
-  }
+ 
