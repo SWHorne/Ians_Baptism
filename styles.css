@@ -8,7 +8,7 @@
   background-color: #0a6537;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -46,6 +46,10 @@
 
 #addEvent {
     color: #0a6537;
+}
+h1 {
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .jumbo {
