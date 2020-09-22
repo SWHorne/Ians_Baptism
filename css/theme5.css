@@ -1,0 +1,23 @@
+/* Use Google's hosted "Open Sans" font as display font in button */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
+
+/* The button */
+.addeventatc 							{display:inline-block;position:relative;}
+.addeventatc:hover 						{color:#fff;font-size:15px;text-decoration:none;}
+.addeventatc .start, .addeventatc .end, .addeventatc .timezone, .addeventatc .title, .addeventatc .description, .addeventatc .location, .addeventatc .organizer, .addeventatc .organizer_email, .addeventatc .facebook_event, .addeventatc .all_day_event, .addeventatc .date_format, .addeventatc .alarm_reminder, .addeventatc .recurring, .addeventatc .attendees, .addeventatc .calname, .addeventatc .uid, .addeventatc .status, .addeventatc .method, .addeventatc .client, .addeventatc .transp {display:none!important;}
+
+/* The drop down */
+.addeventatc_dropdown 					{position:relative;text-align:left;display:block!important;left:auto!important;top:auto!important;font-family:"Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;color:#fff!important;font-weight:400;text-decoration:none;font-size:15px;-webkit-font-smoothing:antialiased!important;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.addeventatc_dropdown span 				{display:inline-block;position:relative;line-height:110%;text-decoration:none;font-size:14px;font-weight:600;color:#333;cursor:pointer;padding:7px 14px 8px 12px;border:1px solid #e1e1e1;margin:0px 5px 0px 0px;-moz-border-radius:4px;-webkit-border-radius:4px;outline-color:rgba(0,78,255,0.5);}
+.addeventatc_dropdown span:hover 		{background:#f4f4f4;color:#000;text-decoration:none;font-size:14px;}
+.addeventatc_dropdown span:active 		{top:0px;}
+.addeventatc_dropdown em 				{font-weight:400;color:#888;font-size:12px;display:none;}
+.addeventatc_dropdown .ateoutlook 		{border-top:3px solid #fa9d00;}
+.addeventatc_dropdown .ategoogle 		{border-top:3px solid #d53900;}
+.addeventatc_dropdown .ateoffice365 	{border-top:3px solid #e53a00;}
+.addeventatc_dropdown .ateoutlookcom 	{border-top:3px solid #1473c5;}
+.addeventatc_dropdown .ateyahoo 		{border-top:3px solid #65106e;}
+.addeventatc_dropdown .ateappleical 	{border-top:3px solid #ab373a;}
+.addeventatc_dropdown .atefacebook 		{border-top:3px solid #43609c;}
+.addeventatc_dropdown .copyx 			{display:none;}
+.addeventatc_dropdown .brx 				{display:none;}
